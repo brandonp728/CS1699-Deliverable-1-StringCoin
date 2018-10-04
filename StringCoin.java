@@ -117,10 +117,7 @@ public class StringCoin
       }
 
       if(verified) {
-        System.out.println("Adding " + coin);
         coinKeyMap.replace(coin, coinKeyMap.get(coin), pk);
-      } else {
-        System.out.println("Missed " + coin);
       }
 
 
